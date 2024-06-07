@@ -1,0 +1,50 @@
+
+table{
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+   margin-top: 10%;
+    background:
+	linear-gradient(
+		rgb(228, 244, 224),
+		transparent
+	),
+	linear-gradient(
+		-45deg,
+		rgb(163, 160, 163),
+		transparent
+	),
+	linear-gradient(
+		45deg,
+		rgb(251, 158, 221),
+		transparent
+	);
+    
+background-blend-mode: multiply;
+}
+
+input[type="button"]{
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 24px;
+    border: none;
+}
+
+.input-screen{
+    padding: 25px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Digital';
+    border-radius: 10%;
+    border: none;
+    border: 2px solid black;
+}
